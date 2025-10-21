@@ -1,6 +1,4 @@
-:root{
 
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
 
@@ -173,4 +171,117 @@ a {
     font-size: 0.8rem;
     color: #888;
     margin-top: 20px;
+}
+
+.imagem-principal{
+    justify-content: left;
+}
+
+@media (max-width: 768px) {
+
+  .conteudo {
+    margin: 80px 40px 0 40px;
+  }
+
+  .começo-lista {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .começo-itens {
+    padding: 10px 0;
+    font-size: 20px;
+  }
+
+  .Logo-cabecalho {
+    padding-left: 40px;
+  }
+
+  .BOTOES {
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+
+  .camisas-sem-modelo,
+  .camisas-com-modelo {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .rodape {
+    padding: 30px 40px;
+  }
+
+  .rodape-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rodape1, .rodape2, .rodape3, .rodape4 {
+    margin-bottom: 25px;
+  }
+
+  .rodape-logo {
+    width: 150px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  header {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .Logo-cabecalho {
+    padding-left: 0;
+  }
+
+  .começo-lista {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .começo-itens {
+    padding: 8px 0;
+    font-size: 18px;
+  }
+
+  .conteudo {
+    margin: 60px 20px 0 20px;
+  }
+
+  .sub-barra {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .camisas-sem-modelo,
+  .camisas-com-modelo {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+  }
+
+  .rodape {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .rodape-social a img {
+    margin: 5px;
+  }
+
+  .rodape-direitos {
+    font-size: 0.7rem;
+  }
 }
