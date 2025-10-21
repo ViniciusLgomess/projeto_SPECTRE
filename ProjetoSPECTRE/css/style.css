@@ -104,7 +104,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     border-bottom: 1px solid #444;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .rodape1 {
@@ -112,13 +112,13 @@ a {
 }
 
 .rodape-logo {
-    width: 180px;
-    margin-bottom: 15px;
+    width: 40px;
+    margin-bottom: none;
 }
 
 .rodape-missao h3 {
     font-size: 1.1rem;
-    margin-bottom: 8px;
+    margin-bottom: 0px;
 }
 
 .rodape-missao p {
