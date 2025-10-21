@@ -1,0 +1,176 @@
+:root{
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+}
+
+.BOTOES{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 120px;
+}
+
+a {
+    color: #FFFFFF;
+}
+.conteudo {
+    margin: 100px 130px 0 130px;
+}
+
+.começo-lista{
+    font-family: "Kantumruy Pro", sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-weight: medium;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 200px;
+    list-style-type: none;
+}
+
+.começo-itens{
+    padding-left: 226px;
+    font-weight: medium;
+    font-size: 25px;
+    padding: 31px;
+}
+
+.Logo-cabecalho{
+    padding-left: 130px;
+}
+
+.sub-barra{
+    background-color: #898989;
+    
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: center;
+    }
+
+.texto-sub-barra{  
+    font-family: "Kantumruy Pro", sans-serif;
+    }
+
+.camisas-sem-modelo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 15px;
+    width: 328px;
+    height: 289px;
+}
+
+.camisas-com-modelo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    gap: 50px;
+    width: 302px;
+    height: 453px;
+}
+
+.linha {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+    margin: 20px 20px;
+}
+
+.rodape {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 80px;
+    font-family: 'Inter', sans-serif;
+}
+
+.rodape-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #444;
+    padding-bottom: 30px;
+}
+
+.rodape1 {
+    max-width: 400px;
+}
+
+.rodape-logo {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.rodape-missao h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.rodape-missao p {
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+.rodape2, .rodape3, .rodape4 {
+    min-width: 150px;
+}
+
+.rodape2 h4, .rodape3 h4, .rodape4 h4 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.rodape2 ul, .rodape3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape2 ul li, .rodape3 ul li {
+    margin-bottom: 6px;
+}
+
+.rodape2 a, .rodape3 a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.rodape2 a:hover, .rodape3 a:hover {
+    color: #fff;
+}
+
+.rodape-social a img {
+    width: 22px;
+    margin-right: 10px;
+    filter: invert(1);
+    transition: opacity 0.2s;
+}
+
+.rodape-social a:hover img {
+    opacity: 0.7;
+}
+
+.rodape-direitos {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 20px;
+}
