@@ -112,9 +112,11 @@ a {
 }
 
 .rodape-logo {
-    width: 40px;
+    width: 450px;
     margin-bottom: none;
+    padding: 5px;
 }
+
 
 .rodape-missao h3 {
     font-size: 1.1rem;
@@ -122,13 +124,14 @@ a {
 }
 
 .rodape-missao p {
+    margin-top: 7px;
     font-size: 0.9rem;
     color: #ccc;
     line-height: 1.5;
 }
 
 .rodape2, .rodape3, .rodape4 {
-    min-width: 150px;
+    min-width: 140px;
 }
 
 .rodape2 h4, .rodape3 h4, .rodape4 h4 {
@@ -173,8 +176,10 @@ a {
     margin-top: 20px;
 }
 
-.imagem-principal{
-    justify-content: left;
+.imagem-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -283,5 +288,6 @@ a {
 
   .rodape-direitos {
     font-size: 0.7rem;
+
   }
 }
